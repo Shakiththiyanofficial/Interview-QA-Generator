@@ -93,7 +93,7 @@ interview-qa-generator/
 - **LangChain** - Document processing & AI chains
 - **OpenAI GPT-3.5** - Question & answer generation
 - **FAISS** - Vector similarity search
-- **Modern HTML/CSS/JS** - Responsive UI
+- **Modern HTML/CSS** - Responsive UI
 
 ## 📊 Sample Output
 
@@ -114,5 +114,6 @@ Question,Answer
 - Question difficulty selection
 - Custom prompt templates
 - Bulk file processing
+
 
 
