@@ -59,13 +59,26 @@ requests==2.32.4
 
 ```
 interview-qa-generator/
-├── app.py              # FastAPI application
+├── app.py                    # FastAPI application
+├── requirements.txt          # Python dependencies
+├── setup.py                 # Package setup
+├── .env                     # Environment variables
+├── .gitignore              # Git ignore rules
+├── README.md               # Documentation
 ├── src/
-│   ├── helper.py       # Core AI processing
-│   └── prompt.py       # Question templates
+│   ├── __init__.py
+│   ├── helper.py           # Core AI processing
+│   └── prompt.py           # Question templates
 ├── templates/
-│   └── index.html      # Web interface
-└── static/             # File storage (auto-created)
+│   └── index.html          # Web interface
+├── static/
+│   ├── docs/               # Uploaded PDFs
+│   │   ├── sample_01.pdf
+│   │   └── sample_02.pdf
+│   └── output/             # Generated CSV files
+│       └── QA.csv
+└── tests/
+    └── test_helper.py      # Unit tests
 ```
 
 ## 🔧 Usage
@@ -102,3 +115,4 @@ Question,Answer
 - Question difficulty selection
 - Custom prompt templates
 - Bulk file processing
+
