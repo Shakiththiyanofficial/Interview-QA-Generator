@@ -16,7 +16,7 @@ AI-powered tool that generates interview questions and answers from PDF document
 
 ### 1. Installation
 ```bash
-git clone https://github.com/Shakiththiyanofficial/interview-qa-generator.git
+git clone https://github.com/Shakiththiyanofficial/Interview-QA-Generator.git
 cd interview-qa-generator
 pip install -r requirements.txt
 ```
@@ -107,7 +107,6 @@ Question,Answer
 
 - **API Key Error**: Ensure `.env` file contains valid `OPENAI_API_KEY`
 - **Module Not Found**: Create empty `src/__init__.py` file
-- **Port Busy**: Change port in `app.py` from 8000 to another port
 
 ## 🚀 Future Features
 
@@ -115,4 +114,5 @@ Question,Answer
 - Question difficulty selection
 - Custom prompt templates
 - Bulk file processing
+
 
